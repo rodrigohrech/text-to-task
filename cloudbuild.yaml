@@ -1,4 +1,4 @@
 steps:
 - name: 'gcr.io/cloud-builders/gcloud'
-  args: ['beta', 'functions', 'deploy', 'text-to-task', '--trigger-topic', 'pdf-to-text', '--runtime', 'nodejs8', '--memory', '128MB', '--entry-point', 'parseText']
+  args: ['beta', 'functions', 'deploy', 'text-to-task', '--trigger-topic', 'pdf-to-text', '--runtime', 'nodejs8', '--memory', '128MB', '--entry-point', 'parseText', '--verbosity', 'debug']
   dir: 'functions/autodeploy'
