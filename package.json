@@ -1,0 +1,7 @@
+{
+  "name": "text-to-task",
+  "version": "0.0.1",
+  "dependencies": {
+    "@google-cloud/pubsub": "^0.18.0"
+  }
+}
