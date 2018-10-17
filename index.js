@@ -58,7 +58,7 @@ exports.parseText = (event, context) => {
     }
     const stringTask = JSON.stringify(task)
 	
-    console.log(`Converted to ${stringTask}`)
+    console.log(`${stringTask}`)
   	
   	publish(stringTask);
 };
